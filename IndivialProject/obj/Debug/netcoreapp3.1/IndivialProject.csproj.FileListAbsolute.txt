@@ -1,0 +1,14 @@
+C:\Users\Acer\source\repos\IndivialProject\IndivialProject\bin\Debug\netcoreapp3.1\IndivialProject.exe
+C:\Users\Acer\source\repos\IndivialProject\IndivialProject\bin\Debug\netcoreapp3.1\IndivialProject.deps.json
+C:\Users\Acer\source\repos\IndivialProject\IndivialProject\bin\Debug\netcoreapp3.1\IndivialProject.runtimeconfig.json
+C:\Users\Acer\source\repos\IndivialProject\IndivialProject\bin\Debug\netcoreapp3.1\IndivialProject.runtimeconfig.dev.json
+C:\Users\Acer\source\repos\IndivialProject\IndivialProject\bin\Debug\netcoreapp3.1\IndivialProject.dll
+C:\Users\Acer\source\repos\IndivialProject\IndivialProject\bin\Debug\netcoreapp3.1\IndivialProject.pdb
+C:\Users\Acer\source\repos\IndivialProject\IndivialProject\obj\Debug\netcoreapp3.1\IndivialProject.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\IndivialProject\IndivialProject\obj\Debug\netcoreapp3.1\IndivialProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\IndivialProject\IndivialProject\obj\Debug\netcoreapp3.1\IndivialProject.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\IndivialProject\IndivialProject\obj\Debug\netcoreapp3.1\IndivialProject.AssemblyInfo.cs
+C:\Users\Acer\source\repos\IndivialProject\IndivialProject\obj\Debug\netcoreapp3.1\IndivialProject.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\IndivialProject\IndivialProject\obj\Debug\netcoreapp3.1\IndivialProject.dll
+C:\Users\Acer\source\repos\IndivialProject\IndivialProject\obj\Debug\netcoreapp3.1\IndivialProject.pdb
+C:\Users\Acer\source\repos\IndivialProject\IndivialProject\obj\Debug\netcoreapp3.1\IndivialProject.genruntimeconfig.cache
