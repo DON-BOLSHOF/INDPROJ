@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Acer\\source\\repos\\IndivialProject\\IndivialProject\\IndivialProject.csproj",
+      "projectUniqueName": "C:\\Users\\Acer\\workspace\\IndivialProject\\INDPROJ\\IndivialProject\\IndivialProject.csproj",
       "projectName": "IndivialProject",
-      "projectPath": "C:\\Users\\Acer\\source\\repos\\IndivialProject\\IndivialProject\\IndivialProject.csproj",
+      "projectPath": "C:\\Users\\Acer\\workspace\\IndivialProject\\INDPROJ\\IndivialProject\\IndivialProject.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Acer\\source\\repos\\IndivialProject\\IndivialProject\\obj\\",
+      "outputPath": "C:\\Users\\Acer\\workspace\\IndivialProject\\INDPROJ\\IndivialProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
