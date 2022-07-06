@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 
 namespace IndivialProject
 {
@@ -29,7 +27,7 @@ namespace IndivialProject
             _secondAutomate = new List<StringIdentifier>();
             _thirdAutomate = new List<StringIdentifier>();
             #region FirstAutomate
-            Console.WriteLine("Первый автомат:");
+            Console.WriteLine("Блок Транслитерации:");
 
             for (int i = 0; i < _string.Length; i++)
             {
@@ -50,7 +48,7 @@ namespace IndivialProject
 
             #endregion
             #region SecondAutomate
-            Console.WriteLine("Второй автомат:");
+            Console.WriteLine("Лексический блок:");
 
             for (int i = 0; i < _string.Length; i++)
             {
@@ -89,7 +87,7 @@ namespace IndivialProject
             }
             #endregion
             #region ThirdAutomate
-            Console.WriteLine("Третий автомат");
+            Console.WriteLine("Блок идентификации ключевых слов");
 
             foreach (var id in _secondAutomate)
             {
@@ -118,52 +116,9 @@ namespace IndivialProject
             }
             #endregion
             #region FourthAutomate
-            List<string> idealString = new List<string>{
-                "КЛСЛОВО_var",
-                "Идентификатор",
-                "двоеточие",
-                "КЛСЛОВО_array",
-                "обратная квадратная скобочка",
-                "Целое число/Идентификатор",
-                "точка",
-                "точка",
-                "Целое число/Идентификатор",
-                "внутренняя квадратная скобочка",
-                "КЛСЛОВО_of",
-                "Стандартный тип",
-                "тчкзпт"
-            };
-
-            while (_thirdAutomate.Count > 0 && idealString.Count > 0)
-            {
-                if(_thirdAutomate[0].indentifier == idealString[0])
-                {
-                    _thirdAutomate.RemoveAt(0);
-                    if (idealString[0] == "Идентификатор" && _thirdAutomate.Count > 0 && _thirdAutomate[0].indentifier == "запятая")
-                        _thirdAutomate.RemoveAt(0);
-                    else
-                        idealString.RemoveAt(0);
-                }
-                else
-                {
-                    if (idealString[0].Contains('/') && !_thirdAutomate[0].indentifier.Contains('/'))
-                    {
-                        if(idealString[0].Contains(_thirdAutomate[0].indentifier))
-                        {
-                            _thirdAutomate.RemoveAt(0);
-                            idealString.RemoveAt(0);
-                            continue;
-                        }
-                    }
-
-                    break;
-                }
-            }
-
-            if (_thirdAutomate.Count == 0 && idealString.Count == 0)
-                File.WriteAllText(path, "Accept");
-            else
-                File.WriteAllText(path, "Reject");
+            string answer = _automatesClasses.CheckSyntaxBlock(_thirdAutomate);
+            File.WriteAllText(path, answer);
+            Console.WriteLine(answer);
             #endregion
         }
     }

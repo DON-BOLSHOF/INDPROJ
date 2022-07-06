@@ -1,6 +1,4 @@
-﻿using System;
-
-public class Identifier
+﻿public class Identifier
 {
     public string indentifier;
 
